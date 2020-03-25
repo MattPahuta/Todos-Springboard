@@ -8,37 +8,11 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
   background: #bdc3c7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 }
-
-/* 
-
-li span {
-  background-color: #e74c3c;
-  height: 40px;
-  margin-right: 20px;
-  text-align: center;
-  color: white;
-  width: 0px;
-  display: inline-block;
-  transition: 0.2s linear;
-  opacity: 0;
-}
-
-li:hover span {
-  width: 40px;
-  opacity: 1.0;
-}
-
-i:hover {
-  cursor: pointer;
-}
-
-.fa-plus {
-  float: right;
-} */
 
 #container {
   width: 600px;
@@ -84,16 +58,17 @@ button {
   font-size: 16px;
   color: white;
   padding: 5px 5px;
-  background-color: #55b94c;
+  background-color: #41883a;
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  margin-left: 10px;
 }
 
-.done-btn {
+/* .remove-btn {
   margin-left: 10px;
   font-size: 14px;
-}
+} */
 
 ul {
   list-style: none;
